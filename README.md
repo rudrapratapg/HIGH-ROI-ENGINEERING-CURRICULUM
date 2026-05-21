@@ -1,25 +1,6 @@
 # HIGH-ROI-ENGINEERING-CURRICULUM
 I am going to divide this into:  MUST MASTER VERY IMPORTANT READ LATER SKIP FOR NOW NEVER PRIORITIZE
 
-# HIGH-ROI-ENGINEERING-CURRICULUM
-I am going to divide this into:  MUST MASTER VERY IMPORTANT READ LATER SKIP FOR NOW NEVER PRIORITIZE
-
-You already have a goldmine-level library.
-
-The problem now is NOT:
-
-> “Which books are good?”
-
-The problem is:
-
-> “Which books should I ignore?”
-
-Because if you try to study all of them:
-
-* you will burn out,
-* retain very little,
-* and never become interview-ready.
-
 For your goal:
 
 # Agoda Platform Team → International Product Engineer → Europe
