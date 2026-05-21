@@ -1,591 +1,657 @@
 # HIGH-ROI-ENGINEERING-CURRICULUM
-I am going to divide this into:  MUST MASTER VERY IMPORTANT READ LATER SKIP FOR NOW NEVER PRIORITIZE
 
-For your goal:
-
-# Agoda Platform Team → International Product Engineer → Europe
-
-you need a:
-
-# HIGH-ROI ENGINEERING CURRICULUM
-
-NOT an academic curriculum.
+> A practical backend/platform engineering curriculum optimized for:
+>
+> * Agoda
+> * Booking.com
+> * Uber
+> * FAANG
+> * Senior Backend Engineering Roles
+>
+> This is NOT an academic curriculum.
+>
+> This is a:
+>
+> # HIGH-ROI ENGINEERING CURRICULUM
+>
+> focused on:
+>
+> * distributed systems
+> * backend engineering
+> * platform engineering
+> * scalability
+> * reliability
+> * system design
+> * engineering maturity
+> * interview preparation
 
 ---
 
-# THE FINAL OPTIMIZED BOOK ROADMAP FOR YOU
+# Goal
 
-I am going to divide this into:
+Target trajectory:
 
-1. MUST MASTER
-2. VERY IMPORTANT
-3. READ LATER
-4. SKIP FOR NOW
-5. NEVER PRIORITIZE
+```text
+Backend Engineer
+    ↓
+Senior Backend Engineer
+    ↓
+Platform / Distributed Systems Engineer
+    ↓
+International Product Company Engineer
+```
+
+Primary target companies:
+
+* Agoda
+* Booking.com
+* Uber
+* Atlassian
+* Google
+* Meta
+* Stripe
+* Datadog
+
+---
+
+# Curriculum Structure
+
+| Phase   | Focus                                | Duration   |
+| ------- | ------------------------------------ | ---------- |
+| Phase 1 | Engineering Foundation               | 3–4 Months |
+| Phase 2 | System Design + Platform Engineering | 3 Months   |
+| Phase 3 | DSA + Interviews                     | Ongoing    |
+| Phase 4 | Cloud Native + Spring                | 1–2 Months |
+
+---
+
+# PRIORITY LEGEND
+
+| Priority         | Meaning                       |
+| ---------------- | ----------------------------- |
+| MUST MASTER      | Core career-changing material |
+| VERY IMPORTANT   | Strong differentiator         |
+| READ LATER       | Useful after foundations      |
+| SKIP FOR NOW     | Low ROI initially             |
+| NEVER PRIORITIZE | Avoid rabbit holes            |
+
+---
+
+# Repository Structure
+
+```text
+HIGH-ROI-ENGINEERING-CURRICULUM/
+│
+├── FAANG-like.md
+├── FAANG.md
+├── Product-based-companies.md
+│
+├── PHASE-1-ENGINEERING-FOUNDATION
+├── PHASE-2-SYSTEM_DESIGN+PLATFORM_ENGINEERING
+├── PHASE-3-DSA+INTERVIEWS
+└── PHASE-4-CLOUD_NATIVE+SPRING
+```
+
+---
+
+# Additional Guidance Files
+
+* [`FAANG.md`](./FAANG.md)
+* [`FAANG-like.md`](./FAANG-like.md)
+* [`Product-based-companies.md`](./Product-based-companies.md)
 
 ---
 
 # PHASE 1 — ENGINEERING FOUNDATION
 
-## (MOST IMPORTANT)
+## Duration
 
-Duration:
 3–4 months
+
+This is the MOST IMPORTANT phase.
 
 ---
 
 # 1. Effective Java — Joshua Bloch
 
-## PRIORITY: EXTREMELY HIGH
+## PRIORITY: MUST MASTER
 
-![Image](https://images.openai.com/static-rsc-4/hawO_UdjjTwskIVs8XFOqJeh7OFsBn0H8Xm_gBG89ljGTFLt8Mu4W7Ho7l4J2ZOEoAkmDjt4Em-Ib-i2waEKtfEnhIGIAwBEl_XXM1n7928E4hyqn1m6ANRoNHO44oPTochYpZ008KWvLQNSpPIEBIlA30nlDqrSW7qsr9H9DEo61wgpSAilubALP5V6ahgD?purpose=fullsize)
+### Repository Link
 
-![Image](https://images.openai.com/static-rsc-4/3s2pj1TKu5SjtS6ZS5wW0EAdHRlktesZoQKlVfTWHipkpjyaZ4K4HMm8lkposAw79zhjDBPO27SoR7TGEa3PIlemX4GhM1y5hF1TrPjhFKuORAEY-RilRHFDW-VgIQzXRztV0itSc3U1QK-gNJ8uWgYXNDW_DTCngkBHpXmixDzIv_Y9uFWeCKcWzp54M4wS?purpose=fullsize)
+* [`Effective Java`](./PHASE-1-ENGINEERING-FOUNDATION/1.Joshua%20Bloch%20-%20Effective%20Java-Addison-Wesley%20Professional%20%282018%29.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/r_dOUP3fCwgpQVt6csykqN1xwy3G8rbmz01YhiPtER4vHNpFiW6yS6anr3sgy0KuEO_MfvIu3InqSOFk75nBez2yMH4sbg683OD6U1AdoCa46dkqfbrUHXBwINiIgkCLmikzU-YVL0EBsUvnWTrHRU5Iq3Aqv2axAkJvkXLcEKX80mI34YtzDI6Z6UjwBSvb?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/zkzRBra-bBzwlakYRQK_xfzJWgk-1RV6h48ksZJw672LtOpW-TSNZXMPVcDr9AahwCLx-rpqwx52T_UrOI5IlgEg9A2Cgu2BUSPxG-FQS4F0kQimVf13PNmteKTh9xJ9bNl7-iV0ogdo8MkKwExuJRCee0Au8a1dOvzNP30OygSHGEqKNC_tCryak5vp7w5h?purpose=fullsize)
+One of the highest ROI Java books for senior backend engineers.
 
-This is probably the highest ROI Java book for senior backend engineers.
+Focus areas:
 
-Master:
+* immutability
+* collections
+* generics
+* concurrency best practices
+* API design
+* streams
+* defensive coding
 
-* immutability,
-* concurrency best practices,
-* collections,
-* generics,
-* API design,
-* enums,
-* streams,
-* object creation,
-* defensive coding.
+Directly improves:
 
-This book directly improves:
-
-* code quality,
-* interview answers,
-* senior engineering thinking.
-
-Mandatory for Agoda-level backend engineering.
+* code quality
+* interview answers
+* engineering maturity
 
 ---
 
-# 2. Java Concurrency in Practice
+# 2. Java Performance — Scott Oaks
 
-## PRIORITY: EXTREMELY HIGH
+## PRIORITY: VERY IMPORTANT
 
-![Image](https://images.openai.com/static-rsc-4/qhIm4SXdtcE1xgbmHlIJ_6rPULjFqopToZCbjwiAC6_-QYOzisXMredg7-jTzzCOQlYorUhYB9AHaFtJ9btA21TrtY27o2Yne6Bgq0IAbypBO7wdOvJ3FezOW-bzB1jETjxvjsOYRLdyIZJR0wz3fuAeUzqGr2u8PrNMHbvfuHCoxJW8xDRv7LFSzq_WGjBt?purpose=fullsize)
+### Repository Link
 
-![Image](https://images.openai.com/static-rsc-4/VfRuVFQWoUmGpw62hMeZY0JPIgMwlOizOhLr2r_NfMcNjaPiYsYkMY042vaA0zqd5XlGECavX765hFxDB6dHSMHmcA5ePev8oq8I_zm2YHhBevymcfzi3f7Qdihsi9f4BTxgInPBOap90A8yk0lwmSiYwfekr0dZL6JwKTv924qrX_ivOzZ2bbbo9fFqjQnR?purpose=fullsize)
+* [`Java Performance`](./PHASE-1-ENGINEERING-FOUNDATION/1.Scott%20Oaks%20-%20Java%20Performance%20-%20In-Depth%20Advice%20for%20Tuning%20and%20Programming%20Java%208%2C%2011%2C%20and%20Beyond%20%5Btrue%20pdf%5D.%20%282020%2C%20O%27Reilly%29%20-%20libgen.li.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/h9elbVFJVXikuyqdRuePYRo193FMxMkxwtFDJtGpyZygS8_2CzkLNkurChgiU-6be4Rq0t5IFMawMYXfzv2XkFx-VLauoJL-VRJj61eShHqAp3Shu5YQxI11oJv76Bwbi90cz05kqxLw1ScKEEjp2S9-vyAtxchbQG6xCkZMw4jmFyc7Eup_fdP8WhlrydGX?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/YB5eYqX26c2HRAnzrt_P27XgtWXDOa_38Z99w4FmTFdqsUEFte8iz3-zB2VKiJh8QOFhhde2-H3HJtZ3sVRvx4zdoC_wi0lIZdftPSAtXZlEgY3HhqP3O_btx6-XSqeBXM-VKcZZc4nR-FDU8Mi_qsKgeUw0osT5gNvw-UoZSuHYsv1jIojWGjaopN--A-Rk?purpose=fullsize)
+Most backend engineers never seriously study:
 
-![Image](https://images.openai.com/static-rsc-4/7fnQ1D6bW-VD09mG8GtDoNRGZG_-f_B1B_SF9Ts1m1dZ2c8E-p6XOKc1sEJsAPjaKUqLLsiqbqf9fLx9bm3pmi10C_NEuZmxXfNzzo2dml9QnbjGLV9pOc2PpRPaqYFKZimx_mxqzvqWmdvOPE2WIudG7jxcoFOmnia_41TrOEiE9twB4kxqjRwwdlfrhLoo?purpose=fullsize)
+* JVM internals
+* GC tuning
+* memory optimization
+* latency bottlenecks
 
-![Image](https://images.openai.com/static-rsc-4/Q-BP04oUIJXPwlvW6mtc51_YBdBSfejLMpxIbg2JpTgp_4yffaQsuYXqPpvYXGZWVeN7aV2OPBtN96tGdy9nORq0XkyPRXeq9RCsysnw7gaFgoZnff1cQGlV-F_87aNBN6WTBQO-ERY7bNPMF746f8QB24uyifqRXzOW1jqaelWPCm6AccUJXvYV754vY-7I?purpose=fullsize)
+Huge differentiator at senior backend level.
 
-This is one of your MOST IMPORTANT books.
+### Focus Areas
 
-Because:
-most Java engineers are weak in:
+* JVM tuning
+* garbage collection
+* heap optimization
+* profiling
+* performance bottlenecks
+* latency optimization
 
-* multithreading,
-* synchronization,
-* concurrent design,
-* thread safety,
-* memory visibility.
+---
 
-Agoda platform/backend interviews may heavily expose this.
+# 3. Java Concurrency in Practice
 
-Master:
+## PRIORITY: MUST MASTER
 
-* synchronization
+### Repository Link
+
+* [`Java Concurrency in Practice`](./PHASE-1-ENGINEERING-FOUNDATION/2.Goetz%2C%20Brian_Peierls%2C%20Tim_Bloch%2C%20Joshua_Bowbeer%2C%20Joseph%20-%20Java%20concurrency%20in%20practice_%20Brian%20Goetz%20...%20%5Bet%20al.%5D-Addison-Wesley%20Professional%20%282006_2013%29.pdf)
+
+### Why This Matters
+
+Most backend engineers are weak in:
+
 * thread safety
-* locks
-* concurrent collections
-* deadlocks
-* immutability
-* executors
-* memory model
+* synchronization
+* memory visibility
+* concurrent design
 
 This separates:
 
-* enterprise CRUD developers
-  from
-* real backend engineers.
+* CRUD developers
+
+from:
+
+* real backend engineers
+
+### Focus Areas
+
+* synchronization
+* locks
+* concurrent collections
+* executors
+* deadlocks
+* Java memory model
 
 ---
 
-# 3. Designing Data-Intensive Applications (DDIA)
+# 4. Designing Data-Intensive Applications (DDIA)
 
 ## PRIORITY: ABSOLUTE MUST
 
-![Image](https://images.openai.com/static-rsc-4/_gvyULiGG0O-QveJtKqxFU_pDdxRUgABArrc1Bq3vLEbuWmK3u0b_6BZX3-brX5W64JgKxMJS_qnKBIXiHtoIVFr18EW-sNJBqvB6sI7ZAfRpIkI54_JQVrwuaKvgZKq39AaoxKwCg0u8BeTYs_ornJJdbjFvQiCn0fi45xwEBffWVWhmHVqVyIw6mL3QJou?purpose=fullsize)
+### Repository Link
 
-![Image](https://images.openai.com/static-rsc-4/kBhA2fjOrwsVNfa-ID8FkC1mXP2w4ONqen-e9shyZexKyemKNm_i2DK74ZDcTsjVAPhEgUa1Pcsgqgp24GzMxfoICdK4wMgUmVODSeAnxNCmvdwhpDyPE5iq1ckqbrKGVel6uaIMtuAXgzhfgxygyRckxbfedYSLJlWrotzFOPVZemVvsU5rtzBbR7haPIqF?purpose=fullsize)
+* [`Designing Data-Intensive Applications`](./PHASE-1-ENGINEERING-FOUNDATION/3.Kleppmann%2C%20Martin%20-%20Designing%20data-intensive%20applications_%20the%20big%20ideas%20behind%20reliable%2C%20scalable%2C%20and%20maintainable%20systems%202018.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/D3C0uQ33Li2EhwwPl5MPT72y7KSjAtrm9y6FPmoZjfOdNpvSHBMTCDUNPq0bsf4nRZz08cuGGvNVf8sZmYPOeIzbLZV8z8W3h84inn8cUuXgDgSok8Mp0JUtwdzFOZBIAdYMgP4alC2c5LTaQ-XRfmdJ7Cq6mWedKjxRv4FBL_d88YgvH8rRw-BgbvUkUTQY?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/ed3n_cKlYUjAEZx-z4zuOgjv5oGPJu6c464VtrcITb8jBFeWF8TWx1AH-prxpBo34IAjJ03UoGnykix1FGr_KtbHsgWP6lCPkYcBumR7BB8Tp47CkbBCjVmgWkYm1N8aP4dN0I4f479KTaatdP8Gfn9Koz8YLFJd57bvkq1_OWUJk9NXqR579zawglD_pmve?purpose=fullsize)
+This is the distributed systems bible.
 
-This is your:
-
-# distributed systems bible.
-
-Do NOT rush it.
-
-Study:
-
-* replication,
-* partitioning,
-* consistency,
-* messaging,
-* Kafka concepts,
-* transactions,
-* stream processing,
-* distributed failures.
-
-This book maps DIRECTLY to:
+Directly relevant for:
 
 * Agoda
-* Booking.com
 * Uber
-* platform engineering.
+* Booking.com
+* Platform Engineering
+
+### Focus Areas
+
+* replication
+* partitioning
+* consistency
+* messaging
+* Kafka concepts
+* transactions
+* stream processing
+* distributed failures
 
 ---
 
-# 4. System Design Interview — Alex Xu (Volume 1 + 2)
+# 5. System Design Interview — Alex Xu
 
-## PRIORITY: VERY HIGH
+## PRIORITY: VERY IMPORTANT
 
-![Image](https://images.openai.com/static-rsc-4/Gv-t6Gr2F3LYT0muCqZpiFfWCj9QVQoKsFHZZiB1aYmCxIGHdHN_yPY8M8uUq8-e8BvJ0E8xZoy0Gn6uu0d3Bu0cDp1-C0KiFGdNRIrET1hS6uX11E_hkllACNcQLBejCoB_qMuRXL1pOWnHPHb1lCPs1wMZUWmdGT00_sK13UH1FUqAtb0V5TGSWPtwF4t6?purpose=fullsize)
+### Repository Links
 
-![Image](https://images.openai.com/static-rsc-4/h6OewUWV4Ne0tMTyJscwI_10gG5PJwEuGpo9zo_68CTKlUqLMp4WIBNAfplYkGU60LckyFzRBYetUrx5XaS5U3j5G5bNj9X14p6TtA8FvfB1Zabu2o2iYtUB0Q98YemeRtU9Qg1fprq496ksRXkHfjCNpn815KPbrkHr0ZODigix6RhvJM6sduJD_dIfjayz?purpose=fullsize)
+* [`System Design Interview Volume 1`](./PHASE-1-ENGINEERING-FOUNDATION/5.Alex%20Yu%20-%20System%20Design%20Interview_%20An%20Insider%E2%80%99s%20Guide%20%282020%2C%20Independently%20published%29.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/WhyjCZlH9HP-2yeYJ2wSQduqQrjWFLGtS_1XXuoGrTP6XiTcPwE08dpYR1ta8jdlNBUq8WBkCjB0jJA8vzuGC2-_GTIXaQRu9J9Jp2OtgdA-uflyuW2wF0ulvwwATbn0Cgb_xymJCWLRVKI7dZweAMSFJuNQ2nq--w7szhQ4Ek9T8-DhZOyCXX3VG4kjyoHO?purpose=fullsize)
+* [`System Design Interview Volume 2`](./PHASE-1-ENGINEERING-FOUNDATION/4.Alex%20Xu%2C%20Sahn%20Lam%20-%20System%20Design%20Interview_%20An%20Insider%27s%20Guide.%202-Byte%20Code%20%282022%29.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/aoQc97lTxv-CrC9n80FyunZH2gnysJflRZbP7Jw-7iCATX_JxZmTRH-BF-0ru37NyN9R5NJhxazX70-mGccAiZmTrPLwtYlgZX34OEVq39yj77lkuzG6c7YluNV4Ez6jBgIMFoLnT6s9HCl9Q9jY2rdf5HhPCTUYokoTQCH7RLVkO8VhHxGTTzYv57xDApvk?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/omQtET5VAcA206jzbkFJJIDj2sZ_DUbkvjwXZ6Uq7qlJM_lurQfX911q-owHaH9bzDWAwMStzMkwMBFMktljR7mnUUAmAztPNT4IkfJvJQdg_xDSD7hkUE1yMN_wUi-64YEV0r9ifOufDeFQZrFqUZnC9JqC6KeHxRD7p3N9_C1runp9bUWjK8EcR204TL-5?purpose=fullsize)
+Provides:
 
-You already have both.
-
-Excellent.
-
-This gives:
-
-* interview architecture patterns,
-* scalable system templates,
-* real-world distributed architecture thinking.
+* scalable architecture patterns
+* interview-ready system design
+* backend architecture tradeoffs
 
 Read AFTER DDIA basics.
 
 ---
 
-# 5. Building Microservices — Sam Newman
+# 6. Building Microservices — Sam Newman
 
-## PRIORITY: VERY HIGH
+## PRIORITY: VERY IMPORTANT
 
-![Image](https://images.openai.com/static-rsc-4/NPD4d5S_FaWSN3dLATcsZdcx29oXM66cMvwF24Yp2rad5wHqXWfYw0_3AIG3LyjyVrom2BbG-TNRrKuBQs1VZCcsPl7a7l_z39NJM072Cwi__GY7FUm7KXg9TAFLDiFsIBJpqUTX9di4tpQ7KRHfKdQ2OkKXMIrKGUZzXdaZMjeow09YufuvWN1zPp4Dk0u9?purpose=fullsize)
+### Repository Link
 
-![Image](https://images.openai.com/static-rsc-4/Z_SMSL837PJEEQaHcTe9IBxA4smGGz0KWrYlJO3xWsjBptD7qZWU5NFb9nZDHloekDfYVotD7qTrFRN2EFLJvsthJQOxIGGOKAu2cW-zuxnC4AWukK_J0_ZeVF9fubdYv-FKU9eavW3t3j0AI60UK2z4ilhvxnLiUaqZYFnSuCS_UGyjpQq56J7UW9eBzQdZ?purpose=fullsize)
+* [`Building Microservices`](./PHASE-1-ENGINEERING-FOUNDATION/6.Sam%20Newman%20-%20Building%20Microservices_%20Designing%20Fine-Grained%20Systems%20%282021%2C%20O%27Reilly%20Media%29%20-%20libgen.li.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/Gw4foLVLB28Uqw683FKG8TJv9ud7gDVfZ3KPWFAkti1CD5Affd4Zt7tR9LqhjEiUzjdM53gon5YqnMv9NrP60ln2egGg65TlTHFiIIoyqCGGkAltR5zcSPA17jLeQ3-rFOWmBiqepSjQ7-GXfjYd-JLLeZkCQw_ApWGhdySAhTkevPPN3e54M_bP7Fw5HC0C?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/IyScPVEMVDLfupJiSUDwUkLl4aDLAEn3Ehd7lwZxzWAindkLsDIZJACKXhEaXCspHLi6sRAwiIdg8Vu_hSBodiLU3ps0AfEoMJRAO1ftXbNwoFw2T_unUmkzsq-he9jYFOnh9rJodnNMC3o0shztTjyfVThkR4Pr5pS_FDF_H6imyS_VnQZRSkltfVxXNdT_?purpose=fullsize)
+Teaches real-world backend architecture.
 
-![Image](https://images.openai.com/static-rsc-4/_vby4fsexAztUKHuZ6ehWXy3ryfRFdtlr6DwhI1clGP6a8bt2A-xx-J8CjA0Ob0jPpv5fx3QzhjG73glCNYErYZ348slgbyDDEDreKhEw8IdbZaJVj1LCbTUVd8smGkvV6wKqC6ZMnvSmT0Lq3Fz24lhiYIdeNHHPgbSCvJEyDE55GnyOBmlFJccsPVJiBCn?purpose=fullsize)
+Better ROI than:
 
-![Image](https://images.openai.com/static-rsc-4/ZKVyECL4JNlze1c2rhj2dFdR3lxRQY1dJhcxN4mtTqHdg2p8e4FJoyBrXcW1_YNuPprzmF3rNP5ssXPauVRaM9WZY21H01e-G7Au0VC5unzzQbwAmwV1YyNKJUtSk0WfQmu1s6nQrfNBcJQ3UjJHBZTpSJ2N3NttnAMmTZ7ZeOEQKx_1okRGljX6EjoGXc4f?purpose=fullsize)
+* random framework tutorials
+* basic Spring Boot CRUD content
 
-This is one of the BEST practical architecture books.
+### Focus Areas
 
-Much better than:
-
-* random Spring microservices tutorials.
-
-Teaches:
-
-* service boundaries,
-* decomposition,
-* communication,
-* resiliency,
-* deployment,
-* observability,
-* distributed architecture tradeoffs.
-
-Extremely useful for:
-
-* Agoda Platform Team,
-* backend architecture interviews.
+* service boundaries
+* decomposition
+* resiliency
+* observability
+* deployment
+* communication patterns
 
 ---
 
 # PHASE 2 — SYSTEM DESIGN + PLATFORM ENGINEERING
 
-Duration:
+## Duration
+
 3 months
 
 ---
 
-# 6. Site Reliability Engineering — Google
+# 7. Site Reliability Engineering — Google
 
-## PRIORITY: VERY HIGH
+## PRIORITY: VERY IMPORTANT
 
-![Image](https://images.openai.com/static-rsc-4/Xu6oTjciAcStEma9jm86JRqIxsKWx9510nOwYNAVTNVAK8j4Dq4Z0M02AlYXrZmRvtcz74VzamTT9fgM7Ufm3QW4YI-F8blV2SVxM9yVeBd38MbT1ahFksGLeePFv1iLt5bGZDfPDHSXXhXoriv4SdDioMpqyY9Ot9EntIFjNoRFxMLIWAQrklTWF_M_Q9de?purpose=fullsize)
+### Repository Link
 
-![Image](https://images.openai.com/static-rsc-4/vbDZzbBX2QXZYu1osYEzvBJlsQGVmoye-_nX6jxDzr5XxNQFH2G3KTPT646KgpBqCDvO_5XEuV3l_8uAWsHLwkq0j0CI7Wj5FciaRi63iZI1dhQ7NdNQ7mPOeAThtsZaGqyUvOhas8A_MAZQMEm525-GDPY-iH3ycQ-HE-dYUMUpwLyFGO4RnuZccobe4RN_?purpose=fullsize)
+* [`Site Reliability Engineering`](./PHASE-2-SYSTEM_DESIGN%2BPLATFORM_ENGINEERING/1.Betsy%20Beyer%20-Site%20Reliability%20Engineering_%20How%20Google%20Runs%20Production%20Systems-O%E2%80%99Reilly%20Media%20%282016%29.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/VGOZmZf-F1h60J9t64Ov6bIr632x748WoTlWkku3kXyQ2qwTCSC2A3rnDMQ_s3-Q3d_FrMhgWiakcvwYZrA-ima4XaJ760mGChxTP1m4HOIlbPTE02dJBnZrQ-Zzfz1Umf2lGkT_xiXGvq2u5ByXqHHhQsUanJUM8nYuwPZjBXPpt2MNenKmP4DG6ccnv0QT?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/Q-2m40xLnciWMXHIAZfMsiK_mFxIxSb9Hk_BHk8N17ytReJn16WwXNO6olurNXiFoFlsfHBQrrPq9bary8Uld7YHu6C2h1bNjnEpzDQhFGHErKCFgJTIYG4NEfT51IpX86Lqr6b-yE_cCl-8uFEkCoYWq0ZcXAj1AXnpylLww3GFwjoNUQ9fOmRON2hI3-6b?purpose=fullsize)
+Critical for platform engineering mindset.
 
-![Image](https://images.openai.com/static-rsc-4/nQa6SJSVg2edF4g1zJ9FkMD7U54-97B0htcDhckRDEiBhkG18Vahic7lh3rvReIbBBCevAjntmtMT-em_Fc0vu_SrNCL8-tCV06e4-Ffcmx1Up4y08E4kt8AgDrnf0FpMBfwz_7Uv-7GALb6_WOlS8LFXBQskVny2htzLArLYdbEX-KE_rT8KlFHVpmHt2MN?purpose=fullsize)
+Most backend engineers never study this seriously.
 
-THIS is hugely valuable for Platform Engineering.
+### Focus Areas
 
-Teaches:
-
-* reliability,
-* SLIs/SLOs,
-* incident management,
-* monitoring,
-* scaling,
-* operational excellence.
-
-This is EXACTLY the kind of mindset Agoda Platform Team values.
-
-Most backend engineers never study this.
-
-Huge differentiator.
+* SLIs/SLOs
+* incident management
+* monitoring
+* operational excellence
+* scaling
+* reliability
 
 ---
 
-# 7. Software Engineering at Google
+# 8. Software Engineering at Google
 
 ## PRIORITY: HIGH
 
-![Image](https://images.openai.com/static-rsc-4/ld-lCYAzM5Av0eNiMVJkRicgO1NaTjbqXJmSunG7lyT3UA30Pjpcap5ckPD8et_l3JXmbITT2ZThMj02q1cqaZ0DyZDxxXq1B5X_mCuyB4-Z5GxfalOeFPESiX8OqFViIGeZr3L8ssZeihpLVOQXnVTum9rI8ZYq7k4evjC3llDgYOkco88lZ7UgovlQ-jPW?purpose=fullsize)
+### Repository Link
 
-![Image](https://images.openai.com/static-rsc-4/EoPMrgZhCwQ1G-k2gbtVzsYQI-BDIS07PIX8sELyZRotgLw0JEYrOn7D2sLBy-tN0Y5t0EFZNIN0AEJSVGJJkuI2Kvjg4LF8fctL2Jx0Dw3AhHwE5v9SsegvbkDgZIfG4LJR8Q2tCaBtSRunGQAYH-_ODSffuoWpKfa-58sUiygEWrrhR6OSxaa69pv7PLKN?purpose=fullsize)
+* [`Software Engineering at Google`](./PHASE-2-SYSTEM_DESIGN%2BPLATFORM_ENGINEERING/2.Titus%20Winters%2C%20Tom%20Manshreck%2C%20Hyrum%20Wright%20-%20Software%20Engineering%20at%20Google_%20Lessons%20Learned%20from%20Programming%20Over%20Time%20%282020%2C%20O%27Reilly%20Media%29%20-%20libgen.li.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/tOK0ofUSheLzilUIu70sXu81dppz_EoxaVHOmhNGBLhcdfYYfe0PZVVmqEK2lZBptKI-ivarpiE0gobKNbYya0zYx3-CTR4FfGMmKAQVjz1XOBsCLsKjtnKOAXlJlJoSk5TN6HiEj1q-uyMqT36kCM-jLcbuW5cLaGEr3rpuWuuBCMqr3qV7blY_bUvWehHX?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/TA32ZoerLhkHyZlkcUAQWczsK2JYxJ1jb7CphY1WAfQBKt2_-3ULBkRgSsYu6oqiMhCwP9W82pF1I-effA2VPQbDakVC8ws-RbLmULQ3_YgnRlLpYM-Ds0bKu_dB6vsBA_eVZZ0Dkp_pQmIkE8W94yqzYbLJmhk0Fi1KDked0pG7mjto4sg24rF_KG5mixVE?purpose=fullsize)
+Helps transition from:
+
+* service-company mindset
+
+to:
+
+* product-company engineering mindset
+
+### Focus Areas
+
+* maintainability
+* engineering process
+* testing culture
+* large-scale systems
+* engineering maturity
+
+---
+
+# 9. Clean Architecture — Robert Martin
+
+## PRIORITY: HIGH
+
+### Repository Link
+
+* [`Clean Architecture`](./PHASE-2-SYSTEM_DESIGN%2BPLATFORM_ENGINEERING/3.Robert%20C.%20Martin%20-%20Clean%20Architecture_%20A%20Craftsman%E2%80%99s%20Guide%20to%20Software%20Structure%20and%20Design-Prentice%20Hall%20%282017%29.pdf)
+
+### Focus Areas
+
+* maintainability
+* layered design
+* boundaries
+* architecture thinking
+
+### Why This Matters
+
+Useful for:
+
+* architecture thinking
+* maintainable backend systems
+
+Do NOT over-obsess over Uncle Bob ideology.
+
+---
+
+# 10. Refactoring — Martin Fowler
+
+## PRIORITY: HIGH
+
+### Repository Link
+
+* [`Refactoring`](./PHASE-2-SYSTEM_DESIGN%2BPLATFORM_ENGINEERING/4.Martin%20Fowler%20-%20Refactoring_%20Improving%20the%20Design%20of%20Existing%20Code-Addison-Wesley%20Professional%20%282018%29.pdf)
+
+### Why This Matters
+
+Real companies mostly deal with:
+
+* legacy systems
+* migrations
+* maintainability
+* cleanup
+
+### Focus Areas
+
+* code smells
+* maintainability
+* refactoring patterns
+* legacy code improvement
+
+---
+
+# 11. System Design at Google
+
+## PRIORITY: READ LATER
+
+### Repository Link
+
+* [`System Design at Google`](./PHASE-2-SYSTEM_DESIGN%2BPLATFORM_ENGINEERING/5.System%20design%20at%20google%20%282022%2C%20openGenus%29%20-%20Toto.pdf)
+
+### Why This Matters
+
+Useful supplementary reading after:
+
+* DDIA
+* Alex Xu
+* SRE
+
+---
+
+# PHASE 3 — DSA + INTERVIEW PREPARATION
+
+## Duration
+
+2–3 months parallel with system design
+
+---
+
+# 12. Cracking the Coding Interview
+
+## PRIORITY: VERY IMPORTANT
+
+### Repository Link
+
+* [`Cracking the Coding Interview`](./PHASE-3-DSA%2BINTERVIEWS/1.Gayle%20Laakmann%20McDowell%20-%20Cracking%20the%20Coding%20Interview_%20189%20Programming%20Questions%20and%20Solutions%20%282015%2C%20CareerCup%29%20-%20libgen.li.pdf)
+
+### Why This Matters
+
+Still one of the best interview prep books.
+
+Focus on:
+
+* communication
+* problem-solving patterns
+* interview thinking
+
+NOT memorization.
+
+---
+
+# 13. Elements of Programming Interviews
+
+## PRIORITY: HIGH
+
+### Repository Link
+
+* [`Elements of Programming Interviews`](./PHASE-3-DSA%2BINTERVIEWS/2.Adnan%20Aziz%2C%20Tsung-Hsien%20Lee%2C%20Amit%20Prakash%20-%20Elements%20of%20Programming%20Interviews%20%282020%29%20-%20libgen.li.pdf)
+
+### Why This Matters
 
 Excellent for:
 
-* engineering maturity,
-* large-scale codebases,
-* maintainability,
-* testing culture,
-* engineering process.
+* algorithmic fluency
+* coding interviews
+* deeper problem-solving
 
-Very valuable for becoming:
+Use selectively.
 
-> product-company engineer mindset
-
-instead of:
-
-> service-company mindset.
-
----
-
-# 8. Clean Architecture — Robert Martin
-
-## PRIORITY: HIGH
-
-![Image](https://images.openai.com/static-rsc-4/yl85NpKp8-vZkMwLCKm8aB3253Aoebh_erCAxRbaIhtFiWikaf6fuEgGqM5kjj47NgJdVLaUXlvFrmb-9vUkyKiwxjMEaPsCKBRJmy7ewHDfNmu-1coJXuN12ImngqMLyrnBz8Nmz5v5sxXsPCjQrPkDD0aihBPbnWx12Xa3IB-zQ_cLD1Vxa5zT6m5e3_cc?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/ybOggbxOHWNFhLKANis1k8vMVEYaFHR_X2fPzF12_U45VeSqN23WF9oOXob_o1Q5vzdiJazdbI-jVFCvFLDPNKfFbo0Ih8eH0QxlpTb--H9SNtnkFkCyAGw0f6HhrJMCCV854aLKvMWiOPlu7xOy-kpMf0teqdUV5YpSx-l9yvdWqhaKIBQJsia_kkcSZI3e?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/eRKsb6nbtSAJGkZxkBrrf3fbZj-3xrMkUQWmBdsYTqOphezSUvTD0z8Y9aSdo-20U_ZcgDk5CGjEvTqSZCXIephHquU38d_0As6MMhyBaR_OvgxeBlKBiIKCiHt9IDHwC-dvPpHbAUj-zIf72bSK7InZokIZ5bin-y2oQxLE2U_Khn_c_1JU4gFijbKoTm8z?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/QCeOhxsLeAD_geexFXCh9M-Y3MiKVJmpQ5MnxOudNBMkkD2lZYMczyF0bNBWoa6vhrSdRCHge2xyZZgwDwJdiah_QY5qpHRMW8V0rZFV7lWvJSIpRBxBEGZYe0TUkfEmXh1UtKDPC8E4J1kR4FgnuFkFrTk7848vZebsk4yxtsGCXdMUQSyHIVfcC4QiUaFa?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/l-dREDzenI6BaDXWxU_FN310pDn6oDKsaia-7YSoKq2FCpxYvCJexrB-DmpM_Fu43nEd-DVG4wyQlSatDnGIsWeB4Xj9l4LCMx_7s2pJudPquwCsvejqXQpqecF0cET3pmNZTSQitciwnaX1jnwq8DIui36_gktZ5wzPkXuBOsfjjSq3yD27qMJPxFhh8SRk?purpose=fullsize)
-
-Good for:
-
-* architectural thinking,
-* boundaries,
-* maintainability,
-* layered design.
-
-Useful.
-But DO NOT over-obsess over Uncle Bob ideology.
-
----
-
-# 9. Refactoring — Martin Fowler
-
-## PRIORITY: HIGH
-
-![Image](https://images.openai.com/static-rsc-4/cYD9-0r9cFE1QAlaB0fOOW1WQ4rKaFpUADfqHdt-Hg2Y56YF4LQxq1hnXXQXqxLavEd41XETS3A1eUVgXSufx3yQXyfMZ8jqTEhnxE8LP8Bm9LjUXeg_y5dqRRPqFqGw881_AAtTw4LhJI4-IiBPVpmUCVrhydaaGPGE5nOTumh4EOIjd9L57OwuHM8zE-cj?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/Qf9AVyeIAfSL9T8SSkheAAugHHmswUof5CbLeVStqrEfAOgwrH2jyTPmuThcoUa1UUpRXSdCl1VbMYnXsK2oxWqUhYs5iCp-sdGdcGF3QXaL8PfmtVfxEBV3y5-jmPz70F8zlOBKuho0W5pO70AIUWb-Qwm7SfH4hv4EQL3MgPaySCFU8GdqJrushXtKdgdI?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/8XkMPnOYr-UK3l0dYmFlWKfZAqQ9EfFkIFKpr3mKF3j-ZGmsOMKsWoEeCe8qXmbwU-KIAwXX-F2qzZsgh1i9t2NYUYeXl6-EyNbdXw8HjqTt3c5fpjg_9xClJfH_U7IPWs1IX_3kKrXmtIHqKzjubyE-nCdC1s0ZGje9jgsE_nGRNEUK7O0ZpHSLueY-Wclo?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/l_5kt8KPKe36-FN-JEhHHmvGM7fkYmqUTVGl42DGC17hUUHzOdJk48IbbyGEmP-GeSnoi2i-PuN-QSHYnRWnPb7WaGeo3JXbE2sKA3UlZS0mv39uO_xjs7IUcaxdvhr3H9FsvWU395QGe04OrssWgAsOqa0Hf4ZhlljSvi3BsJ3C6KnR6R6qBw-UKJsSg5l7?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/N7lnCBAPqRUQ-ay8iSKIjXVHyGcqt2LH6-nXTEW1xle72rwZEHOgZSp2eK7YLH7_ziBDphohKnyK6BQTJfLwfOrxWNvquwY3EFIk6vIxD9blrk9QItArbtapur3RA_WGopWT2RukfmbUrR_q5IyiYiidUGBSqsFF_oKL6Xvgd0XzFBIHNz1CcY6jNQSRtk3v?purpose=fullsize)
-
-Excellent practical engineering book.
-
-Especially valuable because:
-real companies mostly deal with:
-
-* legacy systems,
-* migrations,
-* cleanup,
-* maintainability.
-
-Very aligned with your experience.
-
----
-
-# PHASE 3 — DSA + INTERVIEWS
-
----
-
-# 10. Cracking the Coding Interview
-
-## PRIORITY: HIGH
-
-![Image](https://images.openai.com/static-rsc-4/d1NYgo-fDGq3l5i5km2WT6JFsM0zcuqmqIGu3emwhyr66PoPFo_1h6OXIfu97qK_g2jGMoDpWaVMSc9IPv7Nh93BBV3BqHSeOaOFl6sqY0yh9aMGa0086CBO51LP9Itra_mLQC5XlDF6xGQBxDgJT1x9ilhI1j0umYPRVfEzN6YxDtfwwcGHxQq0hyoCcovs?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/8ULIVClfT5XpwLXDlWocHb2xTJuiyPQiZu_l96YsBOG6B2VLqJabL6fXb-kMDF6-ToFotDItg5CIV9msm7hl16ApZanbWA9xE7nDfDgakWxBj3XwOMBWGQlRgzmRIeibO7Ytet9-L3xvsbpQsxb16mBA4lWtvC6TT0blK_tlA6sDQFiAiCyfEUqhf--4ZBKu?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/wZ62hJBzlbty4JFPVGKhfetxPlJ0tLx8XTk6nSnMfsxf7rE1NrUqB2GRznvPcjg3DGcZMHEXBED-DvdixVSwuLDUK1fKKZJftBvCDwHnNEDFbZsXh8KfMlxLRoSKD_8u-F028vGO4vRhqExVh5tdipafpyfXhAkkAvsPIAXfSHQAZw3dUwsi7oIc8i7MsgJd?purpose=fullsize)
-
-![Image](https://images.openai.com/static-rsc-4/EMBK0il57mXA75zY0Xrd1Bxd8PMY8iHFeWYrxyyIbG-0Mr6Ao-jzMoDbSds_9MtaFv_ficJCHSjOmjBS90mlkFAhAahDZI76HglTVESCpIgH6IoioSI1o67YApbT-QV3O1skl4aVHNnVx1302-aCc-tsG36C87IBVDrgmlyur2YvBHO9UwNwWYa6Bpd90rIT?purpose=fullsize)
-
-Use ONLY for:
-
-* interview pattern exposure,
-* behavioral prep,
-* coding strategies.
-
-DO NOT make this your main DSA source.
-
-LeetCode matters more.
-
----
-
-# 11. Elements of Programming Interviews
-
-## PRIORITY: MEDIUM-HIGH
-
-Excellent if:
-you want stronger problem-solving depth later.
-
-Not necessary initially.
+Do NOT over-grind.
 
 ---
 
 # PHASE 4 — CLOUD NATIVE + SPRING
 
+## Duration
+
+1–2 months
+
 ---
 
-# 12. Cloud Native Spring in Action
+# 14. Cloud Native Spring in Action
+
+## PRIORITY: VERY IMPORTANT
+
+### Repository Link
+
+* [`Cloud Native Spring in Action`](./PHASE-4-CLOUD_NATIVE%2BSPRING/1.Thomas%20Vitale%20-%20Cloud%20Native%20Spring%20in%20Action%20with%20Spring%20Boot%20And%20Kubernetes%20%282022%2C%20MANNING%20Publications%29%20-%20libgen.li.pdf)
+
+### Why This Matters
+
+Directly relevant for:
+
+* modern backend engineering
+* Kubernetes
+* scalable infrastructure
+* platform engineering
+
+### Focus Areas
+
+* Spring Boot
+* Kubernetes
+* cloud-native systems
+* resilience
+* containerization
+
+---
+
+# 15. Spring Security in Action
 
 ## PRIORITY: HIGH
 
-![Image](https://images.openai.com/static-rsc-4/tQkQD34lmMUow6HOn5Dum9X67aCjJT3uehXy4B8F7QaLQ5CqUG6Y89MBDAsMe-DIGKXSz-Ex6uPYtcV-AuRinTy2Hmnu29p9E-BowH0UkJUTOr69ZmrEvuIdInOmfqBfRHTIj28rPXGTc6qOBlUjhNlT2E9nZdcDxjf5r76muTSN05o7Ya83eBFOh0GtfWoz?purpose=fullsize)
+### Repository Link
 
-![Image](https://images.openai.com/static-rsc-4/LA_nc6XjD-F3RpezD1HtAjbF_N0EbdJos85eVG6ifR1hEcZKRKVKxa95pHK523dwW8Sr95DBRLD67XX2k5cXnNNbzOsaQiSLhpU3pKChtHINbNMrcSBwGWS13lWUG2Y6Bo8JeGSCJiN6Fzs3m_dqCjPdkSMz4QTm5sYqNfU-H65ovRa3owATGaj3naO3FQW7?purpose=fullsize)
+* [`Spring Security in Action`](./PHASE-4-CLOUD_NATIVE%2BSPRING/2.Laurentiu%20Spilca%20-%20Spring%20Security%20in%20Action%2C%20Second%20Edition%20%282024%2C%20Manning%29%20-%20libgen.li.pdf)
 
-![Image](https://images.openai.com/static-rsc-4/NAlTzwKXKs1DvnUEhsO7FCr6QergVvBcScbZmwC689GJm7xVVWotdCZ2SdD3A3BBhu5XO2xgXTNGnUelkk2coJeMyyjKeLWBiSX2OiUbdGSy0yVAE2nAAYcRs1oDQ0R5Pm9yVScq5WcRrLZWRMP4LGrNj7P_oYpy-9jL1ccBkXldzJAtDruWp08SuMS6VAXb?purpose=fullsize)
+### Why This Matters
 
-![Image](https://images.openai.com/static-rsc-4/1qwuSh1iqfVsdF6ZkRhR_dde6f5inSyer96URNtgF6M2pFjOpLOb_v8S2lOB0ODh21-wixOwKup9LTu9rUSD6q-eOfGJVzJGt4lObNoxyy1W4f1MW5_JD66gA1peBnGXMy8NV1PoruJVIYK42-zZHmLptOhyAT_QE64iK_6qUw3tEwkA9Fe8b53JxMOyzDYr?purpose=fullsize)
+Security knowledge strongly differentiates senior backend engineers.
 
-![Image](https://images.openai.com/static-rsc-4/5vVdZMtZqojHqKSNVSYoWO_b7FJ7ra9BvxlRRJNs8iQeuUGGxD5MAiJZdvKS-IulgSk8QUVKMyeyrgfvXgeDVlA40lafjdLbyCWHad1PDFHCfgfWGr_sXmPdM10KYp4C9JTSsNorK0U_A76yp8xeOBywJ6vKm5fkYE2ulK8F2McgJ7thEL4zn1oj3LYMbh5K?purpose=fullsize)
+### Focus Areas
 
-![Image](https://images.openai.com/static-rsc-4/8dHthVLwM9PLIfkOE1pmqeh4_m9BbOI5CaR7B3UQ8MUAHrNQOz0Fpoc8BnGDhCfc-BpMPzghlVMJ_CRR1WVZTm2fxzKzYbrzw9b5e5cJxeXdNFEoP1P6BCwYPe5r_T2cyuBnqzqwCsfNac5a1cCZgo3HhtkQ3I95bbMCUC9raNkb5VH2ZHWgSFdR5MxRlUYm?purpose=fullsize)
-
-Very aligned with:
-
-* Kubernetes
-* cloud-native systems
-* platform engineering
-
-Much more valuable than:
-generic Spring CRUD books.
-
----
-
-# 13. Spring Security in Action
-
-## PRIORITY: MEDIUM-HIGH
-
-Good practical security knowledge.
-
-Useful for:
-
-* OAuth2
+* authentication
+* authorization
 * JWT
-* authentication systems
-* service security
+* OAuth2
+* Spring Security internals
 
 ---
 
-# WHAT TO SKIP FOR NOW
+# Backend Engineering Topics To Master
+
+## Distributed Systems
+
+* replication
+* partitioning
+* CAP theorem
+* eventual consistency
+* transactions
+* stream processing
 
 ---
 
-# SKIP INITIALLY
+## Backend Engineering
 
-## Design Patterns (GoF)
-
-Useful later.
-But low ROI initially.
-
-Most engineers misuse patterns anyway.
-
----
-
-## Domain-Driven Design (DDD)
-
-Very powerful.
-But too abstract right now.
-
-Come back later.
+* API design
+* caching
+* queues
+* retries
+* idempotency
+* rate limiting
+* observability
+* fault tolerance
 
 ---
 
-## Algorithm Design Manual / CLRS
+## Infrastructure
 
-Too academic for your current target.
-
-LeetCode + practical problem solving is better ROI.
-
----
-
-## Head First Design Patterns
-
-Too beginner-oriented for your current experience.
+* Docker
+* Kubernetes
+* CI/CD
+* cloud fundamentals
+* monitoring
+* logging
+* tracing
 
 ---
 
-## Pragmatic Programmer
+## Databases
 
-Good book.
-But not critical right now.
-
----
-
-## Clean Code
-
-Controversial advice:
-Do NOT spend too much time here.
-
-Useful partially.
-But many concepts are outdated or over-preached.
-
-Read selectively.
+* indexing
+* query optimization
+* sharding
+* replication
+* transactions
+* NoSQL tradeoffs
 
 ---
 
-# NEVER PRIORITIZE RIGHT NOW
+# Recommended Study Order
 
----
-
-## AI/Spring AI books
-
-Low ROI for Agoda Platform Team.
-
----
-
-## GraphQL books
-
-Not important currently.
-
----
-
-## Beginner Java books
-
-Waste of time for your experience.
-
----
-
-## Hibernate/JPA-only books
-
-Too narrow.
-
----
-
-# YOUR FINAL LEARNING ORDER
-
-# STAGE 1
+## First 90 Days
 
 1. Effective Java
 2. Java Concurrency in Practice
-3. LeetCode daily
+3. DDIA basics
+4. DSA consistency
 
 ---
 
-# STAGE 2
+## Next 90 Days
 
-4. DDIA
-5. Building Microservices
-6. Kafka hands-on
-7. Redis hands-on
-
----
-
-# STAGE 3
-
-8. Alex Xu System Design
-9. Site Reliability Engineering
-10. Cloud Native Spring in Action
+1. System Design Interview
+2. Building Microservices
+3. SRE
+4. Mock system design
 
 ---
 
-# STAGE 4
+## Final Phase
 
-11. Software Engineering at Google
-12. Refactoring
-13. Clean Architecture
-
----
-
-# STAGE 5
-
-14. DDD
-15. Design Patterns
-16. Advanced distributed systems theory
+1. Interview preparation
+2. Resume optimization
+3. Mock interviews
+4. Applications + referrals
 
 ---
 
-# THE MOST IMPORTANT THING
+# What To Ignore Initially
 
-DO NOT become:
+Avoid spending large amounts of time on:
 
-# “book collector engineer”
+* advanced competitive programming
+* obscure algorithms
+* framework hype
+* random YouTube tutorials
+* excessive certifications
 
-This is extremely common.
+Focus on:
 
-Your goal is:
+* backend fundamentals
+* distributed systems
+* engineering maturity
+* production thinking
 
-# implementation + depth.
+---
 
-For every major book:
-build a project.
+# Recommended Outcome
 
-Example:
+After completing this curriculum, you should be capable of targeting:
 
-| Book                   | Project                          |
-| ---------------------- | -------------------------------- |
-| DDIA                   | Kafka event-driven system        |
-| SRE                    | Monitoring platform              |
-| Building Microservices | Microservice ecosystem           |
-| Alex Xu                | URL shortener / booking system   |
-| Concurrency            | Multi-threaded processing engine |
-| Cloud Native Spring    | Kubernetes deployment platform   |
+* Senior Backend Engineer
+* Platform Engineer
+* Distributed Systems Engineer
 
-That is how you become internationally competitive.
+at companies like:
 
-Not by finishing PDFs.
+* Agoda
+* Booking.com
+* Uber
+* Atlassian
+* Google
+* Meta
+
+---
+
+# Final Advice
+
+The goal is NOT:
+
+* becoming an academic computer scientist
+
+The goal IS:
+
+* becoming a high-impact backend/platform engineer capable of cracking Agoda/Uber/Booking.com/FAANG-level interviews.
